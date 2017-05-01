@@ -1,0 +1,35 @@
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+body,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+body{
+	font-family:"宋体";
+}
+a{
+	-webkit-tap-highlight-color:transparent;
+	text-decoration: none;
+}
+input{
+	-webkit-appearance:none;
+	margin: 0;
+	padding: 0;
+	list-style: 0;
+}
+ul,ol,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+}
