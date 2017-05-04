@@ -1,0 +1,245 @@
+.global-head-bg{
+	width: 100%;
+	height: 45px;
+	background-color: #212121;
+}
+.global-head{
+	width: 1380px;
+	margin: 0 auto;
+	height: 45px;
+	position: relative;
+	z-index: 777;
+}
+.global-head-first{
+	margin-right: 7px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	width: 110px;
+}
+.global-logo{
+	display: block;
+	width: 110px;
+	padding-top: 36px;
+	height: 0;
+	overflow: hidden;
+	background-position: 0 -99px;
+}
+.global-head-second{
+	margin-right: 28px;
+}
+.h1-h2{
+	width: 4px;
+	height: 4px;
+	display: block;
+	background-color: #5f5f5f;
+	overflow: hidden;
+	margin-top: 16px;
+	margin-right: 8px;
+}
+.global-second-logo{
+	font: 18px/45px "宋体";
+	color: #739d24;
+}
+.nav{
+	width: 85px;
+	height: 29px;
+	background-color: #252525;
+	border: 1px solid #2e2e2e;
+	margin-top: 8px;
+	border-radius:2px ;
+	margin-right: 165px;
+}
+.navleft{
+	width: 14px;
+	height: 14px;
+	background-position: -192px 0;
+	margin: 7px 2px 0 11px;
+	overflow: hidden;
+}
+.navcenter{
+	font: 18px/29px "宋体";
+	color: #888888;
+}
+.navright{
+	width: 9px;
+	height: 5px;
+	background-position: -212px 0;
+	margin: 12px 0 0 3px;
+	overflow: hidden;
+}
+.form{
+	margin-top: 7px;
+	margin-right: 80px;
+}
+.input{
+	width: 360px;
+	padding-left: 10px;
+	height: 30px;
+	background-color: #fff;
+	font: 14px/30px "宋体";
+	color: #999999;
+	border-radius:2px 0 0 2px ;
+}
+.find{
+	width: 76px;
+	height: 30px;
+	background: url(../img/hengpu.png)  repeat-x;
+}
+.findleft{
+	width: 18px;
+	height: 16px;
+	overflow: hidden;
+	background-position: right -22px ;
+	margin: 7px 4px 0 14px;
+	
+}
+.findright{
+	font: 14px/30px "宋体";
+	color: #FFF;
+}
+.global-head-text a{
+	font: 14px/45px "宋体";
+	color: #e5e5e5;
+}
+.login{
+	margin-right: 6px;
+}
+.login-regsiter{
+	width: 1px;
+	height: 13px;
+	overflow: hidden;
+	background-position: -224px 0;
+	margin-top: 17px;
+	margin-right: 6px;
+	overflow: hidden;
+}
+.open{
+	margin-right: 10px;
+}
+.regsiter{
+	margin-right: 10px;
+}
+.upc{
+	position: relative;
+	margin-right: 10px;
+}
+.upcleft{
+	width: 16px;
+	height: 14px;
+	overflow: hidden;
+	background-position: -227px 0;
+	margin-top: 15px;
+	overflow: hidden;
+}
+.upctext{
+	margin-right: 4px;
+}
+.upctop{
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	background-position:-247px 0 ;
+	top: 11px;
+	left: 42px;
+	overflow: hidden;
+}
+.upcright{
+	width: 9px;
+	height: 5px;
+	background-position: -212px 0;
+	margin-top: 21px;
+	overflow: hidden;
+}
+.download{
+	position: relative;
+	margin-right:10px ;
+}
+.downloadtop{
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	background-position:-247px 0 ;
+	top: 11px;
+	left: 70px;
+	overflow: hidden;
+}
+.news{
+	margin-right: 9px;
+}
+.newsright,.playright{
+	width: 9px;
+	height: 5px;
+	background-position: -212px 0;
+	margin-top:21px ;
+	overflow: hidden;
+}
+.playtext{
+	margin-right: 3px;
+}
+.positionbg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	width: 100%;
+	height: 34px;
+}
+.position{
+	position: absolute;
+	width: 1380px;
+	height: 34px;
+	left: 0;
+	bottom: -44px;
+	
+}
+.positionshu{
+	width: 1px;
+	height: 15px;
+	background-position: -257px 0;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.positiontextleft,.positiontextright{
+	position: relative;
+}
+.positiontext{
+	font: 14px/34px "宋体";
+	padding-left: 11px;
+	padding-right: 12px;
+	color: #ffffff;
+}
+.positiontextgreen{
+	padding-left: 9px;
+	color: #82d900;
+}
+/*footer*/
+.globalfoot{
+	width: 100%;
+	border-top:1px solid #cccccc ;
+	height: 44px;
+	padding-top: 22px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.global-footer-top{
+	font: 12px/22px "宋体";
+	color: #494949;
+	padding-left: 9px;
+	padding-right: 11px;
+}
+.global-footer-shu{
+	width: 1px;
+	height: 11px;
+	background-color: #ccc;
+	overflow: hidden;
+	margin-top: 6px;
+}
+.globalfoot nav{
+	display: inline-block;
+}
+.global-footer-bottom span{
+	font: 12px/22px "宋体";
+	color: #999999;
+}

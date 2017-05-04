@@ -1,0 +1,19 @@
+body,h1,h2,h3,h4,h5,dd,dl{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+input{
+	padding: 0;
+	border: none;
+}
+ul,ol,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
