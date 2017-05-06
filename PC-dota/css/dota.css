@@ -1,0 +1,743 @@
+body,h1,h3,h6,dd,dl,p{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+ul,ol,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+input{
+	padding: 0;
+	border: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: "";	
+	display: block;
+	clear: both;
+}
+.pagebg{
+	height: 2902px;
+	/*width: 1920px;*/
+	width: 100%;
+	background: url(../img/sectionbbg.png) no-repeat center center;
+}
+.headerbg{
+	/*background-color: pink;*/
+	height: 80px;
+	width: 100%;
+	/*background: url(../img/headerbox.png) no-repeat center center;*/
+}
+.headercontent{
+	width:1200px;
+	margin: 0 auto;
+	height: 80px;
+}
+.headercontentleft a{
+	float: left;
+	width: 297px;
+	height: 0;
+	padding-top: 37px;
+	overflow: hidden;
+
+	background: url(../img/dotalogo.png) no-repeat;
+	margin-right: 51px;
+	margin-bottom: 23px;
+	margin-top: 20px;
+}
+.headercontentmiddle{
+	
+}
+.headercontentmiddlet{
+	float: left;
+	width: 50px;
+	padding: 22px 17px;
+	text-align: center;
+	
+}
+.headercontentmiddlec{
+	font: 16px/18px "微软雅黑";
+	color: #827c79;
+}
+.headercontentmiddlee{
+	font: 12px/12px "微软雅黑";
+	color: #827c79;
+}
+.headercontentmiddlet:hover .headercontentmiddlec{
+	color: #00c0ff;
+}
+.headercontentmiddlet:hover .headercontentmiddlee{
+	color: #00c0ff;
+}
+/*.headercontentmiddlet:hover .headercontentmiddlet{
+	background-color: #0d0f0f;
+}   不好使？*/
+.headercontentright{
+	float: right;
+	height: 24px;
+	width: 136px;
+	padding: 28px 0 28px 34px; 
+	background: url(../img/header.png) no-repeat 0 28px;
+}
+.headercontentright span,a{
+	font: 12px/22px "微软雅黑";
+	color: #cccccc;
+}
+.headercontentright a:hover{
+	color: #00C0FF;
+}
+.headerdt{
+	display: block;
+	height: 678px;
+	width: 100%;
+	/*width: 1200px;*/
+	background: url(../img/headerbbg.jpg) no-repeat center center;
+	margin: 0 auto;
+}
+.headerbbg{
+	height: 678px;
+	margin: 0 auto;
+	
+	position: relative;
+}
+.headerpre{
+	height: 92px;
+	width: 48px;
+	background: url(../img/headerpre.png) no-repeat 12px 25px;
+	position: absolute;
+	right: 48px;
+	top: 274px;
+}
+.headerpre:hover{
+	background: url(../img/headeprerwhite.png) no-repeat 12px 25px #000000;
+}
+.headernext{
+	height: 92px;
+	width: 48px;
+	background: url(../img/headernext.png) no-repeat 12px 25px;
+	position: absolute;
+	left: 48px;
+	top: 274px;
+}
+.headernext:hover{
+	background: url(../img/headernextwhite.png) no-repeat 12px 25px #000000;
+}
+.pagecontentbbg{
+	height: 1984px;
+	width: 100%px;
+	
+	margin: 0 auto;
+}
+.pagecontentcenter{
+	height: 1984px;
+	width:1200px ;
+	margin: 0 auto;
+}
+.pagecontentleft{
+	float: left;
+	height: 1876px;
+	width: 750px;
+	margin-right: 30px;
+}
+.hlllist{
+	padding: 1px 1px 0px;
+	margin-right:-8px ;
+	/*height: 82px;*/
+}
+
+.hllkuai{
+	float: left;
+	height: 0;
+	padding-top:82px ;
+	width: 244px;
+	overflow: hidden;
+	background: url(../img/hll.png) no-repeat;
+	margin-right:8px ;
+}
+.blue{
+	background: url(../img/hll.png) no-repeat -252px 0px;
+}
+.green{
+	background: url(../img/hll.png) no-repeat right 0px;
+}
+.news-cen{
+	padding: 43px 0 42px 0px;
+}
+.news-center{
+	font: 18px/32px "微软雅黑";
+	color: #ffffff;
+	padding-left: 40px;
+	background: url(../img/news-cen.png) no-repeat 1px 0;
+}
+.news-cen-more{
+	font: 12px/32px "微软雅黑";
+}
+.news-cen-sj{
+	border: 5px solid black;
+	border-left-color:#999999;
+	margin: 13px 5px 0 5px;
+}
+.news-cen-right:hover .news-cen-more{
+	color: #00C0FF;
+}
+.news-cen-right:hover .news-cen-sj{
+	border-left-color: #00C0FF;
+}
+.news-list a{
+	display: block;
+	padding-top: 2px;
+	height: 34px;
+	font: 12px/34px "微软雅黑";
+	width: 149px;
+	text-align: center;
+}
+.news-center-list{
+	padding-top: 11px;
+}
+.news-tltle{
+	width: 148px;
+	padding-top: 2px;
+	font: 12px/34px "微软雅黑";
+	text-align: center;
+	border: 1px solid #999999;
+	color: #cccccc;
+}
+.news-dd{
+	float: left;
+	width: 148px;
+	padding-top: 2px;
+	font: 12px/34px "微软雅黑";
+	text-align: center;
+	border: 1px solid #333333;
+	color: #999;
+	border-left: none;
+	margin-left: 1px;
+}
+.news-dd:hover{
+	border: 1px solid #999;
+	color: #ccc;
+	margin-left: 0px;
+	
+}
+.news-type{
+	margin: 25px 5px 15px 5px;
+	border: 1px solid #020203; 
+	padding: 15px 40px 15px 20px;
+}
+.news-type-head a{
+	font: 24px/26px "微软雅黑";
+	color:#00c0ff;
+}
+.news-type-head{
+	padding-bottom: 20px;
+}
+.news-type-photo{
+	width: 200px;
+	height: 120px;
+	overflow: hidden;
+	padding-right: 20px;
+}
+.news-type-text{
+	padding-top: 1px;
+}
+.news-type-text a{
+	display: block;
+	font: 14px/22px "微软雅黑";
+	color: #999;
+	width: 457px;
+	padding-bottom: 7px;
+}
+.news-type-text time{
+	font: 12px/22px arial;
+	color: #999;
+}
+.news-type:hover{
+	border: 1px solid #00C0FF;
+}
+.news-center-lists{
+	
+	width: 750px;
+}
+ .news-center-lists-con,.dian{
+ 	float: left;
+ 	height: 44px;
+ 	font: 16px/44px "微软雅黑";
+ 	color: #ccc;
+ 	padding-top:1px ;
+ }
+.news-center-lists time{
+	float: right;
+	margin-right:40px ;
+	font: 12px/44px "微软雅黑";
+}
+.news-center-lists-con{
+	width: 750px;
+}
+.dian{
+	margin-left:21px ;
+	margin-right: 15px;
+}
+.news-center-lists-black{
+	background-color: #000000;
+	opacity: 0.9;
+}
+.news-center-lists:hover .news-center-lists-con{
+	color: #00C0FF;
+}
+.news-center-lists:hover .dian{
+	color: #00C0FF;
+}
+
+
+
+.act-center{
+	background: url(../img/act-center.png) no-repeat 1px 0;
+}
+.act-cen-con{
+	margin: 12px 0 42px 0;
+	padding: 31px 25px 45px 51px;
+	background-color:#15161a ;
+	position: relative;
+}
+.act-cen-pic{
+	display: block;
+	width: 310px;
+	height: 150px;
+	border: 1px solid #020203;
+}
+.act-cen-text{
+	display: block;
+	font: 16px/40px "微软雅黑";
+	color: #999;
+	text-align: center;
+}
+.act-cen-lis{
+	width: 312px;
+	float: left;
+	margin-right:25px ;
+	margin-bottom: 7px;
+}
+.act-cen-lis:hover .act-cen-pic{
+	border: 1px solid #00C0FF;
+}
+.actpre{
+	display: block;
+	height: 94px;
+	width: 41px;
+	position: absolute;
+	background: url(../img/actpre.png) no-repeat;
+	left: 13px;
+	top: 202px;
+}
+.actpre:hover{
+	height: 92px;
+	width: 39px;
+	border: 1px solid #050506;
+	background: url(../img/actprew.png) no-repeat 11px 30px;
+	left:1px;
+	top:171px;
+}
+.actnext{
+	height: 94px;
+	width: 41px;
+	position: absolute;
+	background: url(../img/actnext.png) no-repeat;
+	right: -12px;
+	top: 202px;
+}
+.actnext:hover{
+	height: 92px;
+	width: 39px;
+	border: 1px solid #050506;
+	background: url(../img/actnextw.png) no-repeat 11px 30px;
+	right:0px;
+	top:171px;
+}
+.actleft,.actright{
+	height: 11px;
+	width: 11px;
+	position: absolute;
+	background: url(../img/dota1.png)no-repeat -3px -842px;
+	
+}
+.actleft{
+	left: 351px;
+	bottom: 36px;
+}
+.actright{
+	left: 379px;
+	bottom: 36px;
+}
+.actleft:hover{
+	height: 12px;
+	width: 12px;
+	background: url(../img/dota1.png)no-repeat -3px -869px;
+}
+.actright:hover{
+	height: 12px;
+	width: 12px;
+	background: url(../img/dota1.png)no-repeat -3px -869px;
+}
+.video-cen-head{
+	background: url(../img/video-head.png) no-repeat;
+}
+.pagecontentright{
+	height: 1874px;
+	float: right;
+}
+.game-list{
+	margin-top: 2px;
+	margin-bottom: 42px;
+}
+.yyzy{
+	height: 0;
+	width: 68px;
+	padding-top: 84px;
+	overflow: hidden;
+	background: url(../img/dota1.png) no-repeat -62px -596px;
+}
+.yxzl,.wpzl,.sbcw,.sflj{
+	height: 0;
+	padding-top: 84px;
+	width: 88px;
+	overflow: hidden;
+}
+.yxzl{
+	background: url(../img/dota1.png) no-repeat -130px -596px;
+}
+.wpzl{
+	background: url(../img/dota1.png) no-repeat -218px -596px;
+}
+.sbcw{
+	background: url(../img/dota1.png) no-repeat -306px -596px;
+}
+.sflj{
+	background: url(../img/dota1.png) no-repeat -394px -596px;
+}
+.yyzy:hover{
+	background: url(../img/dota1.png) no-repeat -62px -720px;
+}
+.yxzl:hover{
+	background: url(../img/dota1.png) no-repeat -130px -720px;
+}
+.wpzl:hover{
+	background: url(../img/dota1.png) no-repeat -218px -720px;
+}
+.sbcw:hover{
+	background: url(../img/dota1.png) no-repeat -306px -720px;
+}
+.sflj:hover{
+	background: url(../img/dota1.png) no-repeat -394px -720px;
+}
+.new-match{
+	height: 675px;
+}
+.new-matach-xbj{
+	background: url(../img/dota1.png) no-repeat 0 -45px;
+}
+.new-matach-head{
+	margin-bottom: 11px;
+}
+.new-match-big{
+	display: block;
+	width: 420px;
+	height: 275px;
+	overflow: hidden;
+}
+.new-matach-newsyi{
+	display: block;
+	width: 420px;
+	height: 78px;
+	border-bottom: 1px solid #1a1b1f;
+}
+.new-matach-news-pic{
+	height: 78px;
+	width: 148px;
+	overflow: hidden;
+	display: block;
+	margin-right: 16px;
+}
+.new-matach-news-name{
+	margin-top: 4px;
+	height: 74px;
+	font: 14px/74px "微软雅黑";
+	color: #9ba5b9;
+}
+.new-match-bg{
+	height: 78px;
+	background-color: #131315;
+}
+.gengxin{
+	height: 318px;
+}
+.gengxin-xbj{
+	background: url(../img/gengxin.png) no-repeat 0 0 ;
+}
+.gengxinpic{
+	margin-top: 11px;
+	margin-bottom: 22px;
+	background-color: #15161a;
+	padding: 37px 50px 64px;
+	position: relative;
+}
+.gengxin-lunbo{
+	display: block;
+	height: 152px;
+	width: 320px;
+	overflow: hidden;
+	position: relative;
+}
+.luo-botton{
+	position: absolute;
+	left: 0;
+	bottom:0 ;
+	width: 100%;
+	height: 35px;
+}
+.gengxinbg{
+	background-color: #000000;
+	opacity: 0.5;
+}
+.gengxintext{
+	font:16px/34px "微软雅黑" ;
+	text-align: center;
+}
+.gengxindianyi,.gengxindianer,.gengxindiansan,.gengxindiansi,.gengxindianwu{
+	height: 11px;
+	width: 11px;
+	overflow: hidden;
+	position: absolute;
+	background: url(../img/dota1.png) no-repeat -3px -842px;
+}
+.gengxindianyi{
+	left: 147px;
+	bottom: 31px;
+}
+.gengxindianer{
+	left: 173px;
+	bottom: 31px;
+}
+.gengxindiansan{
+	left: 199px;
+	bottom: 31px;
+}
+.gengxindiansi{
+	left: 225px;
+	bottom: 31px;
+}
+.gengxindianwu{
+	left: 251px;
+	bottom: 31px;
+}
+.gengxindianyi:hover{
+	height: 12px;
+	width: 12px;
+	background: url(../img/dota1.png) no-repeat -3px -869px;
+}
+.gengxindianer:hover{
+	height: 12px;
+	width: 12px;
+	background: url(../img/dota1.png) no-repeat -3px -869px;
+}
+.gengxindiansan:hover{
+	height: 12px;
+	width: 12px;
+	background: url(../img/dota1.png) no-repeat -3px -869px;
+}
+.gengxindiansi:hover{
+	height: 12px;
+	width: 12px;
+	background: url(../img/dota1.png) no-repeat -3px -869px;
+}
+.gengxindianwu:hover{
+	height: 12px;
+	width: 12px;
+	background: url(../img/dota1.png) no-repeat -3px -869px;
+}
+.zidingyi-xbj{
+	background: url(../img/zidingyixbj.png) no-repeat;
+}
+.zidingyi-head{
+	margin-bottom: 12px;
+}
+.zidingyicontent{
+	height: 157px;
+	width: 202px;
+	background-color:#222328 ;
+}
+.zidingyi-pic{
+	padding: 1px;
+	height: 117px;
+	width: 200px;
+	overflow: hidden;
+	display: block;
+}
+.zidingyi-text{
+	display: block;
+	font: 14px/36px "微软雅黑";
+	text-align: center;
+}
+.zidingyi-list{
+	margin-right: 16px;
+}
+.zidingyi-item{
+	margin-right: -16px;
+	margin-bottom: 42px;
+}
+.ser-cen-xbj{
+	background: url(../img/ser-cen.png) no-repeat;
+}
+.ser-cen-bg{
+	height: 470px;
+	background-color: #15161a;
+}
+.ser-cen-sousuo{
+	height: 33px;
+	width: 235px;
+	border: 1px solid #08080a;
+	border-right: none;
+	background-color: #111214;
+	color: #5a5b5b;
+	margin-left: 20px;
+	padding-left: 9px;
+}
+.hongsousuo{
+	display: block;
+	height: 35px;
+	width: 35px;
+	overflow: hidden;
+	background: url(../img/hongsousuo.png) no-repeat;
+}
+.tiwen{
+	margin-left: 10px;
+	text-align:center;
+	padding-top: 1px;
+	height: 34px;
+	width: 90px;
+	font: 14px/34px "微软雅黑";
+	color: #CCCCCC;
+	background-color: #565864;
+}
+.xiaosousuo{
+	/*margin-bottom: 15px;*/
+	padding: 20px 0 15px;
+}
+.cjwt a{
+	font: 16px/36px "微软雅黑";
+	color: #cccccc;
+}
+.changjianwenti h6{
+	margin-left: 20px;
+}
+.lastitem{
+	margin: 0 20px;
+	padding: 11px 0 12px 0;
+	border-top: 1px solid #333333;
+}
+.lasttext{
+	/*display: block;*/
+	font: 14px/38px "微软雅黑";
+	color: #999999;
+}
+.lastdian{
+	float: left;
+	font: 20px/36px arial;
+	margin-right: 11px;
+}
+.lastlist{
+	height: 38px;
+}
+.footerbbg{
+	height: 160px;
+	background-color:red ;
+}.video-cen-item{
+	padding: 30px 28px 10px 30px;
+	border: 1px solid #333333;
+	margin-top: 12px;
+}
+
+.video-cen-list{
+	width: 200px;
+	border: 1px solid #1B1C20;
+	padding: 10px 13px 15px 10px;
+	margin-right: 5px;
+	margin-bottom: 25px;
+}
+.video-cen-list:hover{
+	border: 1px solid #00C0FF;
+}
+.video-pic{
+	display: block;
+	width: 200px;
+	height: 117px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.video-text{
+	display: block;
+	height: 36px;
+	font: 14px/16px arial,"微软雅黑";
+}
+.footerbbg{
+	height: 160px;
+	background-color:#000000;
+}
+.foot{
+	width: 1200px;
+	height: 160px;
+	margin: 0 auto;
+}
+.footer{
+	width: 910px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 40px 0;
+}
+.footerleft{
+	float: left;
+	height: 0px ;
+	width: 94px;
+	padding-top: 33px;
+	overflow: hidden;
+	background: url(../img/foot-wanmei.png) no-repeat;
+	margin-right: 41px;	
+}
+.footermiddle{
+	float: left;
+	height: 0px ;
+	width: 99px;
+	padding-top: 33px;
+	overflow: hidden;
+	background: url(../img/footer-valve.png) no-repeat;
+	margin-right: 19px;	
+}
+.footer-top{
+	margin-bottom: 10px;
+}
+.footer-right{
+	float: left;
+	width: 630px;
+	font: 12px/16px arial,"微软雅黑";
+	color: #959595;
+}
+.footer-bottom{
+	width: 640px;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer-bottom span{
+	font: 12px/16px arial,"微软雅黑";
+	color: #333333;
+}
