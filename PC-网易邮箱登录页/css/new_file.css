@@ -1,0 +1,246 @@
+body{
+	margin: 0;
+	font-size: 14px;
+}
+dl,dd{
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	color: #999999;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+input,select{
+	padding: 0;
+	border: none;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+section{
+	margin: 0 auto;
+	width: 960px;
+}
+.head{
+	padding-top: 30px;
+	padding-bottom: 12px;
+	background-color: #f9f9f9;
+	
+}
+.zuo a,.zuo span{
+	float: left;
+	width: 115px;
+	height: 0;
+	padding-top: 27px;
+	overflow: hidden;
+	background: url(../img/head.jpg);
+	margin-right: 15px;
+}
+.zuo .logo163{
+	background-position: -130px 0;
+}
+.zuo .logoyeah{
+	background-position: -260px 0;
+}
+.zuo .dyd{
+	width: 252px;
+	background-position: right 0;
+	margin-left: 2px;
+}
+.you{
+	font-size: 12px;
+	float: right;
+	padding-right:5px ;
+}
+.lan{
+	color: #003399;
+	padding-top: 1px;
+	height: 24px;
+	line-height: 24px;
+}
+.shu{
+	width: 1px;
+	height: 12px;
+	margin: 7px 7px 0;
+	background-color: #00BFFF;
+	
+}
+.top{
+	
+	height: 36px;
+	border: 1px solid #5b88b8;
+	background: url(../img/top.jpg) repeat-x;
+}
+.top span{
+	color: #ffffff;
+	font: 14px/36px "宋体";
+	padding: 20px;
+}
+.bottom{
+	width: 958px;
+	border: 1px solid #e0e0e0;
+	border-top: none;
+	background: url(../img/bottom.jpg) repeat-y;
+}
+.left{
+	float: left;
+	width: 643px;
+	/*padding-bottom: 32px;*/
+	
+}
+.zhuce{
+	position: relative;
+	float: left;
+	width: 166px;
+	padding-top: 2px;
+	height: 30px;
+	border: 1px solid #b5b5b5;
+	background: url(../img/zhuce.jpg) repeat-x;
+	color: #000000;
+	line-height: 30px;
+	text-align: center;
+	margin-right: -1px;
+	}
+.shang{
+	margin-left: 145px;
+	margin-bottom:34px ;
+	margin-top: 50px;
+}
+.kuang{
+		padding-left:40px ;
+		padding-bottom: 32px;
+}
+/*.list{
+	margin-left:40px ;
+}*/
+.text{	
+	/*margin-left: 35px;*/
+	width: 100px;
+	height: 27px;
+	text-align: right;
+	line-height: 27px;
+	margin-right: 5px;
+}
+.hong{
+	color: #cd003f;
+	font-family: arial;
+}
+.form{
+	width: 205px;
+	height: 25px;
+	border: 1px solid #ababab; 
+	background: url(../img/form.jpg) repeat-x;
+	color: #999999;
+	padding-left: 5px;
+}
+.quan{
+	font-family: tahoma;
+	margin: 3px 6px 0 5px;
+	
+}
+.xiala{
+	width: 100px;
+	height: 27px;
+	border: 1px solid #abadb3;
+}
+.list{
+	margin-bottom:12px ;
+}
+.mm{
+	width: 327px;
+}
+.yzm{
+	width: 200px;
+}
+.yzm-pic{
+	display: block;
+	height: 50px;
+	width: 120px;
+	border: 1px solid #999999;
+	overflow: hidden;
+}
+.listsan{
+	margin-bottom: 22px;
+}
+.yzm-wrap{
+	height: 84px;
+	width: 122px;
+	margin-top: -12px;
+	margin-left: 4px;
+}
+.yzm-text{
+	display: block;
+	text-align: center;
+	font: 12px/30px "宋体";
+	color: #003399;
+}
+.zhushi span{
+	font: 12px/34px "宋体";
+	color:#999999 ;
+}
+.ding{
+	position: relative;
+}
+.wei{
+	position: absolute;
+	left: 0;
+	top: 38px;
+}
+.tongyi{
+	font: 12px "宋体";
+}
+.blue{
+	color: #003399;
+}
+.check{
+	margin: 0;
+	
+}
+.list .submit{
+	display: inline-block;
+	width: 117px;
+	height: 34px;
+	padding-top: 1px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: 1px solid #3f942a;
+	background: url(../img/lv.jpg) repeat-x;
+	text-align: center;
+	line-height: 34px;
+}
+.listsi{
+	margin-top:20px ;
+/*	padding-bottom: 32px;*/
+}
+.right{
+	width: 315px;
+	float: right;
+}
+.foot{
+	height: 51px;
+	text-align: center;
+	line-height: 42px;
+	font-size: 12px;
+	color: #999;
+}
+.zhuce:hover{
+	background:url(../img/lan.jpg) repeat-x;
+	border: 1px solid #0e529a;
+	color: #ffffff;
+	z-index: 1;
+	font-weight: bold;
+}
+.datu{
+	display: block;
+	height: 340px;
+	width: 315px;
+	overflow: hidden;
+}
