@@ -1,0 +1,27 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.jl{
+	background: url(../img/jl.png);
+	background-repeat:no-repeat ;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.br{
+	border-right: 1px solid #efefef;
+}
+.bl{
+	border-left: 1px solid #efefef;
+}
+.bb{
+	border-bottom: 1px solid /*red*/ #efefef;
+}
+.bt{
+	border-top: 1px solid #efefef;
+}
